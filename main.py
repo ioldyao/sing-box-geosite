@@ -165,7 +165,7 @@ with open("./links.txt", 'r') as links_file:
 
 links = [l for l in links if l.strip() and not l.strip().startswith("#")]
 
-output_dir = "./rule/srs"
+output_dir = "./rule"
 result_file_names = []
 
 for link in links:
